@@ -102,7 +102,7 @@ export default function DefectForm() {
               {...register("preconditions")}
               className="w-full mt-1 border border-gray-300 rounded-md p-2"
             >
-              <option value="SelectItem">SelectItem</option>
+              <option value="">Select Item</option>
               <option value="User exists">User exists</option>
               <option value="User logged in">User logged in</option>
             </select>
