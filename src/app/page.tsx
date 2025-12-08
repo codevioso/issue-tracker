@@ -24,7 +24,7 @@ export default function DefectForm() {
   const onSubmit = async (data: defectForm) => {
     try {
       const response = await fetch(
-        "http://localhost:5678/webhook-test/b159d7a4-a197-447d-af7a-02833f5e67eb",
+        "http://localhost:5678/webhook-test/5179982e-14f4-40df-8e70-24f8fd951d25",
         {
           method: "POST",
           headers: {
