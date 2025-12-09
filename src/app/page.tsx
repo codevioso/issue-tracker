@@ -46,13 +46,13 @@ export default function DefectForm() {
         module: currentValues.module,
         preconditions: currentValues.preconditions,
         steps: currentValues.steps,
-        useCase: "",
-        expectedResult: "",
-        priority: "",
-        owner: "Hasib",
+        useCase: currentValues.useCase,
+        expectedResult: currentValues.expectedResult,
         status: "",
-        defectId: "",
         notes: "",
+        priority: currentValues.priority,
+        owner: "Hasib",
+        defectId: currentValues.defectId,
       });
     } catch (error) {
       console.error("Submission error:", error);
@@ -88,7 +88,7 @@ export default function DefectForm() {
             className="px-6 bg-red-600 text-white font-semibold py-2 rounded-md hover:bg-red-700 transition cursor-pointer"
           >
             {" "}
-            Rest{" "}
+            Reset{" "}
           </button>
         </div>
 
