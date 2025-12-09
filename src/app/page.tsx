@@ -40,7 +40,7 @@ export default function DefectForm() {
 
       const result = await response.json();
 
-      // Preserve Module, Preconditions, and Steps; reset Defect ID to empty
+      // Preserve Module, Preconditions, and Steps; reset Defect ID to empty 
       const currentValues = getValues();
       reset({
         module: currentValues.module,
